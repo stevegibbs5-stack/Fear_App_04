@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #cce6ff; /* light blue for health app feel */
+  color: #111;
+  padding-top: 30px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: #4da6ff;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #3399ff;
+}
+
+#avatar {
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

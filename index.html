@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Support App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- START SCREEN -->
+  <div id="startScreen">
+    <button id="startBtn">Tap to Start</button>
+  </div>
+
+  <!-- AVATAR -->
+  <img
+    id="avatar"
+    src="idle.gif"
+    alt="Avatar"
+    class="hidden"
+  />
+
+  <!-- MAIN CATEGORY BUTTONS -->
+  <div id="mainButtons" class="hidden">
+    <button data-type="outside">Going Outside</button>
+    <button data-type="clinic">Clinic Visit</button>
+    <button data-type="social">Social Situation</button>
+  </div>
+
+  <!-- TIER BUTTONS -->
+  <div id="tierButtons" class="hidden">
+    <button data-tier="1">Level 1</button>
+    <button data-tier="2">Level 2</button>
+    <button data-tier="3">Level 3</button>
+  </div>
+
+  <!-- FOLLOW-UP BUTTONS -->
+  <div>
+    <button id="hearAnotherBtn" class="hidden">Hear Another</button>
+    <button id="doneBtn" class="hidden">Done</button>
+  </div>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+</html>
